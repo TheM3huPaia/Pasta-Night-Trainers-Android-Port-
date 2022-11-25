@@ -2248,8 +2248,8 @@ class PlayState extends MusicBeatState
 
 	public function updateScore(miss:Bool = false)
 	{
-		scoreTxt.text = Karl Port | 'Score: ' + songScore
-		+ ' | Misses: ' + songMisses
+		scoreTxt.text = 'Score: ' + songScore
+		+ ' | Burrice: ' + songMisses
 		+ ' | Rating: ' + ratingName
 		+ (ratingName != '?' ? ' (${Highscore.floorDecimal(ratingPercent * 100, 2)}%) - $ratingFC' : '');
 
